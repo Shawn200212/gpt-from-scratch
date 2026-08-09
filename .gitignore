@@ -1,0 +1,21 @@
+# Python and Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+cuda/
+
+# Full training artifacts (kept local; too large for a normal GitHub repository)
+/train_split.txt
+/val_split.txt
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Local corpus downloads
+openwebtext/
